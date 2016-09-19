@@ -1,0 +1,28 @@
+h1,h2,h3,h4,h5{
+    			background: #5599DD;
+    			color: #DDDDDD;
+                padding: 5px;
+    		}
+
+.exp{
+    text-indent: 50px;
+}
+    		
+#email{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+body{
+    font-family: ubuntu, Arial, sans-serfi;
+}
+
+#corpo-pagina{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cabecalho{
+    text-align: center;
+}
