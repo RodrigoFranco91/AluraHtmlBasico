@@ -1,7 +1,7 @@
 body{
 	background-color: #F5F0DC;
 	font-family: Helvetica, Arial, sans-serif;
-	width: 960px;
+	width: 940px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -20,7 +20,7 @@ figure{
 	font-family: "Comic Sans MS", Cursiva;
 	border: 1px solid black;
 	box-shadow: 5px 5px 3px rgba(0,0,0,0.7);
-	-webkit-transition: 1s;
+	-webkit-transition: 2s;
 	-moz-transition: 1s;
 
 }
@@ -30,7 +30,12 @@ figure:hover{
 	-o-transform: rotate(-5deg);
 	-webkit-transform: rotate(-5deg);
 	-moz-transition: 1s;
-	-webkit-transition: 1s;
+	-webkit-transition: 2s;
+}
+
+h1{
+	margin-left: auto;
+	width: 740px;
 }
 
 h2{
@@ -62,7 +67,37 @@ h2{
 	background: #FFFFFF;
 }
 
+nav{
+	float: left;
+	width: 200px;
+}
+
+#conteudo-site{
+	float: right;
+	width: 740px;
+}
+
 nav li{
-	display: inline;
-	margin-left: 50px;
+	background: #C7BE9B;
+	margin-bottom: 5px;
+	list-style-type: none;
+	padding:3px;
+	padding-left: 0px;
+}
+
+nav li:hover{
+	background: #9C8F67;
+}
+
+
+nav a{
+	color: black;
+	text-decoration: none;
+}
+
+#banner{
+	position: fixed;
+	top: 0;
+	right: 0;
+
 }
